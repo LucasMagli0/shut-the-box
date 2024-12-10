@@ -1,0 +1,148 @@
+/* basic css reset */
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+*{ margin: 0; }
+img{
+    display:block;
+    max-width: 100%;
+}
+button:hover:enabled {
+    cursor: pointer;
+    background-color: lightgray;
+}
+/* basic css reset */
+
+body {
+    background-color: lightgray;
+    font-family: system-ui;
+}
+main {
+    background-color: white;
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    box-shadow: 2px 3px 3px gray;
+}
+h1 {
+    font-size: 5rem;
+}
+
+/* Player Name Enter */
+#players {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* display: none; */
+}
+.playernameinput {
+    background: lightgray;
+    border: 0;
+    border-radius: 17px;
+    font-size: 1.5rem;
+    padding: 0.7rem 1.3rem;
+}
+#start-btn {
+    border: 3px solid;
+    border-radius: 17px;
+    font-size: 2.3rem;
+    padding: 0.3rem 2.6rem;
+    max-width: 20%;
+    margin: auto;
+}
+/* Player Name Enter */
+
+/* board */
+#board {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    display: none;
+}
+.labels {
+    display: flex;
+    gap: 100px;
+    margin: auto;
+}
+.board-label {
+    color: black;
+    font-size: 3rem;
+}
+table, th, td {
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 17px;
+    padding: 15px;
+    font-size: 2rem;
+}
+.fill {
+    background-color: black;
+    color: white;
+}
+/* board */
+
+/* Dice */
+#dice {
+    display: flex;
+    gap: 3rem;
+    margin: auto;
+    font-size: 6rem;
+    display: none;
+}
+.die {
+    display: flex;
+    gap: 2rem;
+    margin: auto;
+    flex-direction: column;
+}
+.die2 {
+    display: flex;
+    gap: 2rem;
+    margin: auto;
+}
+p {
+    font-size: 2rem;
+}
+.moves {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: auto;
+}
+.dice-btns {
+    border: 3px solid black;
+    border-radius: 17px;
+    font-size: 2rem;
+    padding: 2px;
+}
+/* Dice */
+
+/* Scoreboard */
+#scoreboard {
+    display: none;
+}
+/* Scoreboard */
+
+/* Winner */
+#winner {
+    display: none;
+}
+#restart-btn {
+    border: 3px solid black;
+    border-radius: 17px;
+    font-size: 2rem;
+    padding: 0.3rem 2.6rem;
+}
+#reload-btn {
+    border: 3px solid black;
+    border-radius: 17px;
+    font-size: 2rem;
+    padding: 0.3rem 2.6rem;
+}
+/* Winner */
